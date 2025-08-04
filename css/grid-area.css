@@ -28,11 +28,34 @@
 
 #cabecalho{
     background-color: black;
-    
+    padding: 10px;
     
     grid-area: cabecalho;
 
+    display: grid;
+
+    grid-template-areas: 
+    'logo menu_principal menu_principal menu_principal  '
+    ;
+
+    gap: 0 100px;
+
 }
+
+#logo{
+
+    background-color: azure;
+
+    grid-area: logo;
+}
+
+#menu_principal{
+    background-color: aqua;
+
+    grid-area: menu_principal;
+}
+
+
 
 #conteudo{
     
