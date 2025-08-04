@@ -6,7 +6,7 @@
 
 section{
 
-    background-color: bisque;
+    background-color: rgb(255, 140, 0);
     height: 100vh;
     
     /*Estrutura de layout pelo Grid*/
@@ -14,15 +14,17 @@ section{
     display: grid;
 
                         /*1° coluna 2° Coluna...*/
-    grid-template-columns: 200px 200px ;
+    grid-template-columns: 1fr 1fr ;
+
+                        /*Tamanho da 1° linha Tamanho da 2° linha*/
+    grid-template-rows: 1fr 2fr;
 }
 
 div{
-    background-color: brown;
-    width: 200px;
+    background-color: rgb(0, 0, 0);
     height: 200px;
-    margin: 10px;
     border: 2px solid white;
     color: white;
+    
 }
 
