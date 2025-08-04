@@ -9,6 +9,12 @@ section{
     background-color: bisque;
     height: 100vh;
     
+    /*Estrutura de layout pelo Grid*/
+
+    display: grid;
+
+                        /*1° coluna 2° Coluna...*/
+    grid-template-columns: 200px 200px ;
 }
 
 div{
@@ -16,5 +22,7 @@ div{
     width: 200px;
     height: 200px;
     margin: 10px;
+    border: 2px solid white;
+    color: white;
 }
 
