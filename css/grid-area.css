@@ -6,24 +6,61 @@
 
 #conteudo_principal{
 
+    background-color: darkorange;
+    height: 100vh;
+
+    display: grid;
+
+    grid-template-areas: 
+    
+    'cabecalho cabecalho cabecalho'
+    'conteudo conteudo conteudo'
+    'rodape rodape rodape'
+    
+    ;
+
 }
 
 #cabecalho{
+    background-color: black;
+    height: 100px;
+    
+    grid-area: cabecalho;
 
 }
 
 #conteudo{
+    
+    background-color: brown;
+    height: 500px;
+    
+    grid-area: conteudo;
 
 }
 
 #lateral{
+    background-color: aqua;
+    height: 300px;
+
+    grid-area: lateral;
+
 
 }
 
 #conteudo_especifico{
+    background-color: blueviolet;
+    height: 250px;
+    
+    grid-area: especifico;
+
 
 }
 
 #rodape{
+    background-color: rgb(255, 167, 4);
+    height: 300px;
     
+    grid-area: rodape;
+
+
 }
