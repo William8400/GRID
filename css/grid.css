@@ -14,7 +14,10 @@ section{
     display: grid;
 
                         /*1° coluna 2° Coluna...*/
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 4fr ;
+    
+    gap: 10px;
+    padding: 50px;
 
                         /*Tamanho da 1° linha Tamanho da 2° linha*/
     grid-template-rows: 1fr 1fr;
@@ -22,9 +25,20 @@ section{
 
 div{
     background-color: rgb(0, 0, 0);
-    height: 200px;
+    
     border: 2px solid white;
     color: white;
+}
+
+
+#blocos_azuis{
+
+
+     display: grid;
+     
+     grid-template-columns: 1fr 1fr 1fr ;
+     padding: 10px;
+     gap: 10px;
     
 }
 
